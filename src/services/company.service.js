@@ -13,4 +13,8 @@ router.post("/:id", async (req, res) => {
   res.json(await company.save());
 });
 
+router.get("/", async (req, res) => {
+  res.json(await Company.find());
+});
+
 module.exports = router;
