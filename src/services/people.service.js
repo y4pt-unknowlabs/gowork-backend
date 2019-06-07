@@ -18,5 +18,9 @@ router.post("/clear", async (req, res) => {
   res.json(await People.deleteMany());
 });
 
+router.get("/", async (req, res) => {
+  res.json(await People.find());
+});
+
 
 module.exports = router;

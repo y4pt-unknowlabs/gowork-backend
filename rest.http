@@ -20,8 +20,12 @@ Content-Type: application/json
   "name": "Stolkhomsmassan2"
 }
 
-### @name CompanyDelete
+### @name PeopleDelete
 DELETE {{url}}/people/clear
+Content-Type: application/json
+
+### @name PeopleGetList
+GET {{url}}/people
 Content-Type: application/json
 
 
