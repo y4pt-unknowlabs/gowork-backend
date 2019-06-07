@@ -1,10 +1,5 @@
 {
   "http": {
-    "porta": "PORT"
-  },
-  "api": {
-    "google-maps": {
-      "key": "GOOGLE_API_KEY"
-    }
+    "port": "PORT"
   }
 }
