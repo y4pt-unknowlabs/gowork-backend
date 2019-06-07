@@ -13,4 +13,10 @@ router.post("/:id", async (req, res) => {
   res.json(await people.save());
 });
 
+// Delete all
+router.post("/clear", async (req, res) => {
+  res.json(await People.deleteMany());
+});
+
+
 module.exports = router;

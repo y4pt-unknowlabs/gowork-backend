@@ -1,5 +1,5 @@
 @url=http://localhost:10000
-
+@googleApiKey=AIzaSyAZoFB7dKKybaOY-BbBtbrCy-9uBPEy3-4
 ### @name CompanyInsert
 PUT {{url}}/company
 Content-Type: application/json
@@ -20,3 +20,10 @@ Content-Type: application/json
   "name": "Stolkhomsmassan2"
 }
 
+### @name CompanyDelete
+DELETE {{url}}/people/clear
+Content-Type: application/json
+
+
+### @name googleApiZipCode
+GET https://maps.googleapis.com/maps/api/geocode/json?address=21050455&key={{googleApiKey}}

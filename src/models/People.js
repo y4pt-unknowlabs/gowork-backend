@@ -2,7 +2,6 @@ const { Schema, model } = require('mongoose');
 const Company = require('./Company');
 
 const peopleSchema = new Schema({
-  company: Company,
   name: String,
   identify: String,
   geo: {
