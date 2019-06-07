@@ -1,0 +1,22 @@
+@url=http://localhost:10000
+
+### @name CompanyInsert
+PUT {{url}}/company
+Content-Type: application/json
+
+{
+  "name": "Stolkhomsmassan",
+  "geo": {
+    "lat": 59.2760828,
+    "long":18.0048304
+  }
+}
+
+### @name CompanyUpdate
+POST {{url}}/company/5cfa860d8c88743fb418c5e9
+Content-Type: application/json
+
+{
+  "name": "Stolkhomsmassan2"
+}
+

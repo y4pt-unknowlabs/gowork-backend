@@ -1,0 +1,15 @@
+{
+  "http": {
+    "port": 10000
+  },
+  "heroku": {
+    "passwd": "uNknow4Labs"
+  },
+  "db": {
+    "host": "mongodb://master:Zr2RSVdXiHR8nAh@ds253804.mlab.com:53804/heroku_8fwk2qgp",
+    "options": {
+      "useCreateIndex": true,
+      "useNewUrlParser": true
+    }
+  }
+}
