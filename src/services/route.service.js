@@ -5,8 +5,26 @@ const Company = require('../models/People');
 router.get("/", async (req, res) => {
 
   res.json({
-    pup: [{ lat: -22.907378, long: -43.1744772 }],
-    final: { lat: -22.920442, long: -43.2305017 }
+    pup: [{
+      lat: '-22.920934',
+      lng: '-43.2180615'
+    },
+
+    {
+      lat: '-22.9196691',
+      lng: '-43.2148643'
+    },
+
+    {
+      lat: '-22.9185552',
+      lng: '-43.2127814'
+    }],
+
+    final: {
+      lat: '-22.9071033',
+      lng: '-43.1741033'
+    },
+
   });
 });
 
