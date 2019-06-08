@@ -11,4 +11,9 @@ router.get("/", async (req, res) => {
 });
 
 
+router.get("/direction", async (req, res) => {
+  res.json(require("../../db/routes.json"));
+});
+
+
 module.exports = router;

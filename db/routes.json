@@ -1,0 +1,440 @@
+{
+  "legs": [
+    {
+      "origin": {
+        "lat": "-22.920934",
+        "lng": "-43.2180615"
+      },
+      "destination": {
+        "lat": "-22.9196691",
+        "lng": "-43.2148643"
+      },
+      "routes": [
+        {
+          "distance": {
+            "text": "0.4 km",
+            "value": 356
+          },
+          "duration": {
+            "text": "1 min",
+            "value": 55
+          },
+          "end_address": "R. Haddock Lobo, 274 - Tijuca, Rio de Janeiro - RJ, 20260-002, Brazil",
+          "end_location": {
+            "lat": -22.9196129,
+            "lng": -43.21489649999999
+          },
+          "start_address": "R. Haddock Lobo, 373 - Tijuca, Rio de Janeiro - RJ, 20260-001, Brazil",
+          "start_location": {
+            "lat": -22.9208923,
+            "lng": -43.2180749
+          },
+          "steps": [
+            {
+              "distance": {
+                "text": "0.4 km",
+                "value": 356
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 55
+              },
+              "end_location": {
+                "lat": -22.9196129,
+                "lng": -43.21489649999999
+              },
+              "html_instructions": "Head <b>east</b> on <b>R. Haddock Lobo</b> toward <b>R. Maestro Vila Lobos</b><div style=\"font-size:0.9em\">Destination will be on the right</div>",
+              "polyline": {
+                "points": "pv{jC|_xfG?ACOCQ?AESCMCKCSGUIYIQCEAEYy@Sm@Ws@k@cBc@_BUs@Wo@"
+              },
+              "start_location": {
+                "lat": -22.9208923,
+                "lng": -43.2180749
+              },
+              "travel_mode": "DRIVING"
+            }
+          ],
+          "traffic_speed_entry": [],
+          "via_waypoint": []
+        }
+      ]
+    },
+    {
+      "origin": {
+        "lat": "-22.9196691",
+        "lng": "-43.2148643"
+      },
+      "destination": {
+        "lat": "-22.9185552",
+        "lng": "-43.2127814"
+      },
+      "route": [
+        {
+          "distance": {
+            "text": "0.2 km",
+            "value": 247
+          },
+          "duration": {
+            "text": "1 min",
+            "value": 33
+          },
+          "end_address": "R. Haddock Lobo, 187 - Tijuca, Rio de Janeiro - RJ, 20260-141, Brazil",
+          "end_location": {
+            "lat": -22.9185217,
+            "lng": -43.2128062
+          },
+          "start_address": "R. Haddock Lobo, 274 - Tijuca, Rio de Janeiro - RJ, 20260-002, Brazil",
+          "start_location": {
+            "lat": -22.9196129,
+            "lng": -43.21489649999999
+          },
+          "steps": [
+            {
+              "distance": {
+                "text": "0.2 km",
+                "value": 247
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 33
+              },
+              "end_location": {
+                "lat": -22.9185217,
+                "lng": -43.2128062
+              },
+              "html_instructions": "Head <b>northeast</b> on <b>R. Haddock Lobo</b> toward <b>R. Alberto de Sequeira</b><div style=\"font-size:0.9em\">Destination will be on the right</div>",
+              "polyline": {
+                "points": "pn{jCblwfG]}@m@eB]cAYm@EOoA{B"
+              },
+              "start_location": {
+                "lat": -22.9196129,
+                "lng": -43.21489649999999
+              },
+              "travel_mode": "DRIVING"
+            }
+          ],
+          "traffic_speed_entry": [],
+          "via_waypoint": []
+        }
+      ]
+    },
+    {
+      "origin": {
+        "lat": "-22.9185552",
+        "lng": "-43.2127814"
+      },
+      "destination": {
+        "lat": "-22.9071033",
+        "lng": "-43.1741033"
+      },
+      "route": [
+        {
+          "distance": {
+            "text": "5.7 km",
+            "value": 5687
+          },
+          "duration": {
+            "text": "17 mins",
+            "value": 1046
+          },
+          "end_address": "Avenida Nilo Peçanha próximo ao 11 - Centro, Rio de Janeiro - RJ, 20031-005, Brazil",
+          "end_location": {
+            "lat": -22.9071112,
+            "lng": -43.1741002
+          },
+          "start_address": "R. Haddock Lobo, 187 - Tijuca, Rio de Janeiro - RJ, 20260-141, Brazil",
+          "start_location": {
+            "lat": -22.9185217,
+            "lng": -43.2128062
+          },
+          "steps": [
+            {
+              "distance": {
+                "text": "0.2 km",
+                "value": 163
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 38
+              },
+              "end_location": {
+                "lat": -22.9176873,
+                "lng": -43.21150189999999
+              },
+              "html_instructions": "Head <b>northeast</b> on <b>R. Haddock Lobo</b> toward <b>R. Caruso</b>",
+              "polyline": {
+                "points": "vg{jC`_wfGm@kAq@oASa@[g@U_@"
+              },
+              "start_location": {
+                "lat": -22.9185217,
+                "lng": -43.2128062
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.6 km",
+                "value": 599
+              },
+              "duration": {
+                "text": "2 mins",
+                "value": 147
+              },
+              "end_location": {
+                "lat": -22.9123489,
+                "lng": -43.2107366
+              },
+              "html_instructions": "Turn <b>left</b> onto <b>R. Barão de Ubá</b>",
+              "maneuver": "turn-left",
+              "polyline": {
+                "points": "pb{jCzvvfGYEGAGASAoAIKA_CSeAIgEY}@IMA}@GYASEi@C}@GC?q@GmDW"
+              },
+              "start_location": {
+                "lat": -22.9176873,
+                "lng": -43.21150189999999
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.2 km",
+                "value": 224
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 43
+              },
+              "end_location": {
+                "lat": -22.9112766,
+                "lng": -43.2125846
+              },
+              "html_instructions": "Turn <b>left</b> onto <b>R. Joaquim Palhares</b>",
+              "maneuver": "turn-left",
+              "polyline": {
+                "points": "dazjCbrvfGYl@[l@Yj@CDaAlBYl@e@dA"
+              },
+              "start_location": {
+                "lat": -22.9123489,
+                "lng": -43.2107366
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "71 m",
+                "value": 71
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 11
+              },
+              "end_location": {
+                "lat": -22.9109224,
+                "lng": -43.2121918
+              },
+              "html_instructions": "<b>R. Joaquim Palhares</b> turns <b>right</b> and becomes <b>Praça da Bandeira</b>/<b>Av. Pres. Vargas</b>",
+              "polyline": {
+                "points": "nzyjCr}vfGSBC?C?C?EACCYQAQ?UAQ"
+              },
+              "start_location": {
+                "lat": -22.9112766,
+                "lng": -43.2125846
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.6 km",
+                "value": 576
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 39
+              },
+              "end_location": {
+                "lat": -22.9104996,
+                "lng": -43.20673679999999
+              },
+              "html_instructions": "Keep <b>left</b> to continue on <b>Av. Pres. Vargas</b>",
+              "maneuver": "keep-left",
+              "polyline": {
+                "points": "fxyjCd{vfGGa@?c@@O@S@ODa@Fc@XiCLkABY@MBO?M@Q?G?YAo@AQAWCWE]Mi@UgAIc@[sAKc@Ie@S{@Oq@"
+              },
+              "start_location": {
+                "lat": -22.9109224,
+                "lng": -43.2121918
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "2.5 km",
+                "value": 2491
+              },
+              "duration": {
+                "text": "5 mins",
+                "value": 322
+              },
+              "end_location": {
+                "lat": -22.9030237,
+                "lng": -43.1838251
+              },
+              "html_instructions": "Keep <b>left</b> to stay on <b>Av. Pres. Vargas</b>",
+              "maneuver": "keep-left",
+              "polyline": {
+                "points": "ruyjCbyufGEKCKEYGe@ESKm@AMKg@O}@IYEQ[cAEOMg@]qAsAuGQs@CIGSCKKe@Oi@mAoFCOg@sBAEKg@WmAMk@UgACMKe@g@wBGUgB}HESa@eBQm@Kc@Qo@Og@IQKg@Qu@GWw@qD]{AIa@sB_JI_@sAcGmAsFEQo@sC[}AS_AOm@a@gBCMESEOa@aBU}@c@oBIa@Mc@"
+              },
+              "start_location": {
+                "lat": -22.9104996,
+                "lng": -43.20673679999999
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.4 km",
+                "value": 406
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 86
+              },
+              "end_location": {
+                "lat": -22.9064154,
+                "lng": -43.1823681
+              },
+              "html_instructions": "Turn <b>right</b> onto <b>Av. Passos</b> (signs for <b>Castelo</b>/<b>Aterro</b>/<b>Copacabana</b>)",
+              "maneuver": "turn-right",
+              "polyline": {
+                "points": "zfxjC|iqfGfA]l@SlA_@hBm@z@Yt@Wp@WvAc@|Bu@"
+              },
+              "start_location": {
+                "lat": -22.9030237,
+                "lng": -43.1838251
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "93 m",
+                "value": 93
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 24
+              },
+              "end_location": {
+                "lat": -22.9070522,
+                "lng": -43.1818691
+              },
+              "html_instructions": "Continue onto <b>Praça Tiradentes</b>",
+              "polyline": {
+                "points": "b|xjCx`qfGCKRWFG@A@ABA@?VIFEFCPGDABAFCNM"
+              },
+              "start_location": {
+                "lat": -22.9064154,
+                "lng": -43.1823681
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.3 km",
+                "value": 338
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 59
+              },
+              "end_location": {
+                "lat": -22.9063404,
+                "lng": -43.178667
+              },
+              "html_instructions": "<b>Praça Tiradentes</b> turns <b>left</b> and becomes <b>Rua da Carioca</b>",
+              "polyline": {
+                "points": "``yjCt}pfGEQi@aCCGG]E]QiAc@yDKsAGq@A]"
+              },
+              "start_location": {
+                "lat": -22.9070522,
+                "lng": -43.1818691
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.5 km",
+                "value": 547
+              },
+              "duration": {
+                "text": "3 mins",
+                "value": 200
+              },
+              "end_location": {
+                "lat": -22.9062225,
+                "lng": -43.1733989
+              },
+              "html_instructions": "Continue onto <b>Av. Nilo Peçanha</b>",
+              "polyline": {
+                "points": "r{xjCtipfGAe@BE@C@C?C@q@?eC?M?OCY?{@?K@O?G@UBuA?mA?U?{@@OD_@@I?O?[?q@AUCOKo@Mo@G]EME]?I?G@GBG"
+              },
+              "start_location": {
+                "lat": -22.9063404,
+                "lng": -43.178667
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "75 m",
+                "value": 75
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 34
+              },
+              "end_location": {
+                "lat": -22.9068492,
+                "lng": -43.17313739999999
+              },
+              "html_instructions": "<b>Av. Nilo Peçanha</b> turns <b>right</b> and becomes <b>Av. Pres. Antônio Carlos</b>",
+              "polyline": {
+                "points": "zzxjCvhofGr@UhA]"
+              },
+              "start_location": {
+                "lat": -22.9062225,
+                "lng": -43.1733989
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.1 km",
+                "value": 104
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 43
+              },
+              "end_location": {
+                "lat": -22.9071112,
+                "lng": -43.1741002
+              },
+              "html_instructions": "Turn <b>right</b> onto <b>Av. Alm. Barroso</b>",
+              "maneuver": "turn-right",
+              "polyline": {
+                "points": "x~xjCbgofGAN@F?FBLn@pC"
+              },
+              "start_location": {
+                "lat": -22.9068492,
+                "lng": -43.17313739999999
+              },
+              "travel_mode": "DRIVING"
+            }
+          ],
+          "traffic_speed_entry": [],
+          "via_waypoint": []
+        }
+      ]
+    }
+  ]
+}
