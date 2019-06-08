@@ -4,6 +4,7 @@ const morgan = require('morgan');
 const bodyParser = require('body-parser');
 const helmet = require('helmet');
 const mongoose = require('mongoose');
+const firebase = require('firebase');
 
 const { upServer } = require('./server');
 
@@ -22,7 +23,7 @@ module.exports.startApplication = async function () {
   }
 }
 
-function middlewares(application) {
+function middlewares(application, ) {
   application.set("maxFieldsSize", '200 * 1024 * 1024 * 1024');
   application.use(morgan('<:remote-addr - :remote-user ":referrer" ":user-agent"> ":method :url HTTP/:http-version" :status'));
   application.use(bodyParser.json({ limit: '5mb' }));
@@ -36,11 +37,13 @@ function routes(application) {
   application.use("/people", require('./services/people.service'));
   application.use("/company", require('./services/company.service'));
   application.use("/route", require('./services/route.service'));
+  application.use("/simulator", require('./services/simulator.service'));
 
   console.log("Routes configured");
 }
 
 async function database() {
   await mongoose.connect(config.get("db.host"), config.get("db.options"));
+  firebase.initializeApp(config.get('firebase'));
   console.log("Database Connected");
 }

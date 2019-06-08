@@ -12,7 +12,16 @@ const t = v => new Promise((resolve, reject) => {
   googleMapsClient.directions(v, (err, d) => err ? reject(err) : resolve(d))
 });
 
-Promise.all(vector.map(t))
+
+
+//Promise.all(vector.map(t))
+t({
+  origin: '-22.920934,-43.2180615', destination: '-22.9071033,-43.1741033', waypoints: [
+    '-22.9196691,-43.2148643',
+    '-22.9185552,-43.2127814',
+    '-22.9071033,-43.1741033',
+  ]
+})
   .then(JSON.stringify)
   .then(console.log)
   .catch(console.log);

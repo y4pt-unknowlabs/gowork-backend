@@ -27,7 +27,7 @@ const esClient = new elasticsearch.Client({
         name: p.name,
         geo: {
           lat: p.geo.lat,
-          lng: p.geo.lng
+          lon: p.geo.long
         },
       });
       // body.push({ delete: { "_index": 'people', _id: p._id } });

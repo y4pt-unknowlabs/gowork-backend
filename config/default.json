@@ -14,5 +14,13 @@
   },
   "es": {
     "host": "https://e8qrb9hhnc:w4aaae8p9v@bora-4019710674.eu-central-1.bonsaisearch.net:443"
+  },
+  "firebase": {
+    "apiKey": "AIzaSyD7MlLycXIgtDYS4TxCYlPrJqrjZAW20ek",
+    "authDomain": "gowork-55018.firebaseapp.com",
+    "databaseURL": "https://gowork-55018.firebaseio.com",
+    "projectId": "gowork-55018",
+    "storageBucket": "gowork-55018.appspot.com",
+    "messagingSenderId": "613755606263"
   }
 }
