@@ -35,6 +35,7 @@ function middlewares(application) {
 function routes(application) {
   application.use("/people", require('./services/people.service'));
   application.use("/company", require('./services/company.service'));
+  application.use("/route", require('./services/route.service'));
 
   console.log("Routes configured");
 }
