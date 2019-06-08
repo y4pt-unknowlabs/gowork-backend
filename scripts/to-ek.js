@@ -22,15 +22,15 @@ const esClient = new elasticsearch.Client({
     body.push({ title: 'people' })
 
     people.forEach(p => {
-      // body.push({ "create": { "_index": "people", _type: '_doc', "_id": p._id } })
-      // body.push({
-      //   name: p.name,
-      //   geo: {
-      //     lat: p.geo.lat,
-      //     lng: p.geo.lng
-      //   },
-      // })
-      body.push({ delete: { "_index": 'people', _id: p._id } });
+      body.push({ "create": { "_index": "people", _type: '_doc', "_id": p._id } })
+      body.push({
+        name: p.name,
+        geo: {
+          lat: p.geo.lat,
+          lng: p.geo.lng
+        },
+      })
+      // body.push({ delete: { "_index": 'people', _id: p._id } });
     });
 
     // await esClient.indices.create({ index: 'people' })
