@@ -18,28 +18,24 @@ const esClient = new elasticsearch.Client({
     });
     const body = [];
 
-    body.push({ index: { _index: 'people', _type: '_doc', _id: 1 } })
-    body.push({ title: 'people' })
+    // body.push({ index: { _index: 'people', _type: '_doc', _id: 1 } })
+    // body.push({ title: 'people' })
 
     people.forEach(p => {
-      body.push({ "create": { "_index": "people", _type: '_doc', "_id": p._id } })
+      body.push({ "index": { "_index": "people", _type: '_doc', "_id": p._id } });
       body.push({
         name: p.name,
         geo: {
           lat: p.geo.lat,
           lng: p.geo.lng
         },
-      })
+      });
       // body.push({ delete: { "_index": 'people', _id: p._id } });
     });
 
     // await esClient.indices.create({ index: 'people' })
 
-    await esClient.bulk({
-      index: "people",
-      type: "_doc",
-      body
-    });
+    await esClient.bulk({ body: body });
     console.log("junda");
     process.exit();
   } catch (e) {
