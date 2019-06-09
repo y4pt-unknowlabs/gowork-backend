@@ -4,7 +4,7 @@ let state = false;
 let timer = null;
 let points = require('../../db/points-simulator.json');
 let index = 0;
-let timeFactor = 5000;
+let timeFactor = 2000;
 
 // action
 router.post("/action", async (req, res) => {
@@ -20,12 +20,8 @@ router.post("/action", async (req, res) => {
 });
 
 function play() {
-  timer = setTimeout(() => {
-    task();
-    if (state) {
-      play();
-    }
-  }, timeFactor);
+  task()
+  timer = setTimeout(() => state ? play() : null, timeFactor);
 }
 
 function pause() {
@@ -34,15 +30,17 @@ function pause() {
 
 function task() {
   const point = points[index];
+  const p = point.split(',');
   firebase.database().ref('onibus/onibus1').set({
-    latitude: point.lat,
-    longitude: point.lng
+    latitude: Number(p[0]),
+    longitude: Number(p[1])
   });
-  console.log("sending", point);
+  console.log(point);
   if (index == points.length - 1) {
     index = 0;
+    state = 0;
   } else {
-    index++
+    index++;
   }
 }
 
@@ -50,6 +48,7 @@ function task() {
 router.get("/action", async (req, res) => {
   state = 0;
   index = 0;
+  task()
   res.redirect('/simulator');
 });
 

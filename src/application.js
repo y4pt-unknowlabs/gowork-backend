@@ -38,7 +38,6 @@ function routes(application) {
   application.use("/company", require('./services/company.service'));
   application.use("/route", require('./services/route.service'));
   application.use("/simulator", require('./services/simulator.service'));
-
   console.log("Routes configured");
 }
 
